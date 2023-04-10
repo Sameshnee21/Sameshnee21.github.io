@@ -1,0 +1,22 @@
+body{
+   
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background:url(Images/kieran-sheehan-TDUPDSdqxJc-unsplash.jpg) no-repeat;
+   background-size: cover;
+   height: 100vh;
+
+}
+
+nav{
+    background: rgba(60, 57, 68, 0.5);
+    backdrop-filter: blur(7px);
+    height: 80px;
+    width: 100%;
+}
+#logo{
+    color: rgb(205, 195, 179);
+font-size: 20px;
+font-weight:bold;
+line-height: 80px;
+
+}
