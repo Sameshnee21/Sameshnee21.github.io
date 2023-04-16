@@ -15,8 +15,32 @@ nav{
 }
 #logo{
     color: rgb(205, 195, 179);
-font-size: 20px;
+font-size: 23px;
 font-weight:bold;
 line-height: 80px;
+margin:0 50px ;
 
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+nav ul li a{
+font-size: 16px;
+color: antiquewhite;
+text-decoration: none;
+}
+
+a.active{
+    background-color: black;
+    color: antiquewhite;
+    padding: 8px 10px;
+    border-radius: 50px;
 }
