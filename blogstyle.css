@@ -8,7 +8,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 body{
     height: 100vh;
     background-color: #000;
-    background-image: url("Images/lucas-t-wb6dyvkqpyo-unsplash.jpg");
+    background-image: url("Images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -112,6 +112,22 @@ display:none;
     justify-content: center;
 }
 
+section#blog{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#blog h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
 @media(max-width: 992px){
     .navbar .links, 
     .navbar .action_btn{
@@ -125,4 +141,11 @@ display:none;
     .dropdown_menu{
         display: block;
     }
+}
+
+@media(max-width: 576px){
+.dropdown_menu{
+    left: 2rem;
+    width: unset;
+}
 }

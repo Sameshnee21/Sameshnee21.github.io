@@ -4,20 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sameshnee Moodley Portfolio Website</title>
-    <link rel="stylesheet" href="normailze.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
   </head>
   <body>
-    <nav>
-      <label for="logo" id="logo">Sameshnee Moodley Portfolio Website</label>
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="#">Sameshnee Moodley Designs</a></div>
+        <ul class="links">
+          <li><a href="designsection.html">Design Sector</a></li>
+          <li><a href="essay.html">Essay</a></li>
+          <li><a href="p+p.html">Profile & Portfolio</a></li>
+          <li><a href="blog.html">Blog Space</a></li>
+        </ul>
+        <a href="#" class="action_btn">Get Started</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
 
-      <ul>
-        <li><a href="blog.html" class="active">Blog Space</a></li>
-        <li><a href="essay.html" class="active">Essay</a></li>
-        <li><a href="p+p.html" class="active">Profile + Portfolio</a></li>
-        <li><a href="designsection.html" class="active">Design Sector</a></li>
-      </ul>
-    </nav>
+      <div class="dropdown_menu">
+        <li><a href="designsection.html">Design Sector</a></li>
+        <li><a href="essay.html">Essay</a></li>
+        <li><a href="p+p.html">Profile & Portfolio</a></li>
+        <li><a href="blog.html">Blog Space</a></li>
+        <li><a href="#" class="action_btn">Get Started</a></li>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Greetings Explorer.</h1>
+      </section>
+    </main>
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
   </body>
 </html>
