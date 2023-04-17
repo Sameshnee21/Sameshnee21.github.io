@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      <div class="dropdown_menu open">
+      <div class="dropdown_menu">
         <li><a href="designsection.html">Design Sector</a></li>
         <li><a href="essay.html">Essay</a></li>
         <li><a href="p+p.html">Profile & Portfolio</a></li>
@@ -38,5 +38,15 @@
         <li><a href="#" class="action_btn">Get Started</a></li>
       </div>
     </header>
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+      };
+    </script>
   </body>
 </html>
