@@ -11,6 +11,7 @@
         background-image: url("Images/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg");
         background-size: cover;
         background-position: center;
+
     }
     
     li{
@@ -149,3 +150,56 @@
         width: unset;
     }
     }
+
+    *{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        text-decoration: none;
+        transition: all .2s linear;
+    }
+
+    html{
+        font-size: 80%;
+        overflow-x: hidden;
+        background-color: #01052a; 
+        
+    }
+
+  
+
+
+    .container{
+        display: flex;
+        align-items: center;
+        float:right;
+        color: #818181;
+        
+    }
+
+img{
+   width: 600px;
+   height: 350px;
+}
+
+.img-col{
+    flex-basis: 50%;
+}
+.intro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: coral;
+}
+
+.portfolio{
+    margin-top: 25px;
+}
+
+.portrait{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    float: left;
+    padding-right: 10px;
+}
