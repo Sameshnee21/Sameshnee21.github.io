@@ -150,9 +150,13 @@ section#blog{
 }
 }
 
-.blog_post1{
-    border: 1px #fff;
-    padding: 15px;
+.blog_post{
+    border: 10px #fff;
+    padding: 10px;
+    color: #001e3f;
+    align-items: normal;
+    margin-bottom: 10%;
+    background-color: #4e5476;
 }
 
 .avatar {
