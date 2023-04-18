@@ -185,16 +185,15 @@
         margin: 50px;
      }
 
-     @media(max-width: 576px){
-        .img{
-            left: 2rem;
-            width: unset;
-        }
-    }
+    
 
 
 .intro{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: coral;
+    height: 100vh;
+        background-color: #000;
+        background-image: url("Images/Intro.jpg");
+        background-size: cover;
+        background-position: center;
+       margin-bottom: 25px;
 }
 

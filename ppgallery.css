@@ -12,14 +12,14 @@ body{
 h2{
 text-align: center;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: coral;
+color: rgb(255, 255, 255);
 font-size: 50px;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 0px;
+    padding: 0px;
 }
 
 .column{
@@ -38,3 +38,18 @@ font-size: 50px;
 .column img:hover{
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 7);
 }
+
+@media screen and (max-width:800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
