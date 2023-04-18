@@ -149,3 +149,16 @@ section#blog{
     width: unset;
 }
 }
+
+.blog_post1{
+    border: 1px #fff;
+    padding: 15px;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    float: left;
+    padding-right: 10px;
+}
