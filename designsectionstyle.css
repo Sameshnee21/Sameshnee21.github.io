@@ -170,19 +170,49 @@
   
 
 
-    .container{
-        display: flex;
-        align-items: center;
-        float:right;
-        color: #818181;
-        
-    }
+
 
 img{
    width: 600px;
    height: 350px;
+  float: left;
+  padding: 10px;
 }
 
-.img-col{
-    flex-basis: 50%;
+.h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.h {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+@media screen and (max-width:600px) {
+    .img{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .img{
+        flex: 100%;
+        max-width: 100%;
+    }
 }
