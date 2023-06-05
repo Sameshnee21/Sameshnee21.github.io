@@ -24,8 +24,7 @@
     
     body{
         height: 100vh;
-        background-color: #75b1ff;
-        background-image: url("Images/sj-objio-XFWiZTa2Ub0-unsplash.jpg");
+        background-color: rgb(49, 49, 69);
         background-size: cover;
         background-position: center; 
     }
