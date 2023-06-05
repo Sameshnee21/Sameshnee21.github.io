@@ -150,4 +150,10 @@
     }
     }
 
-    
+    .space{
+        padding: 1.5rem;
+    }
+
+    .title{
+        padding:4px ;
+    }
