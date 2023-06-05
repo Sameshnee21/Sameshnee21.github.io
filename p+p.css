@@ -198,31 +198,6 @@
        margin-bottom: 25px;
 } */
 
-.Btnn{
-    margin: 150px, 0px;
-    padding: 150px, 0;
-    height: 3vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.Btnn{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  background: #fff;
-  width: 160px;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: rgb(25, 25, 55);
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
 
 
 
