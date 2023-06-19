@@ -167,7 +167,7 @@ section#blog{
     padding-right: 10px;
 }
 
-.to-top{
+/*.to-top{
     background: #ffffff;
     position: fixed;
     bottom: 16px;
@@ -190,4 +190,25 @@ section#blog{
     bottom: 32px;
     pointer-events: auto;
     opacity: 1;
+}*/
+
+#myBtn{
+position: fixed;
+bottom: 20px;
+right:30px;
+z-index: 99;
+border: none;
+outline: none;
+background-color: rgb(217, 217, 217);
+color: #6d6b87;
+padding: 15px;
+border-radius: 10px;
+font-size: 12px;
+cursor: pointer;
+display: none;
 }
+
+#myBtn:hover{
+    background-color: #1a1c28;
+}
+
