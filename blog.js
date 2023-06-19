@@ -1,12 +1,4 @@
-/*const myBtn = document.querySelector("myBtn");
-
-window.addEventListener("scroll", () => {
-    if (window.pageYOffset > 100) {
-        myBtn.classList.add("active");
-    } else{
-        myBtn.classList.remove("active");
-    }
-})*/
+// TO THE TOP BUTTON //
 
 myButton = document.getElementById('myBtn'); 
 
