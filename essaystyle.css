@@ -186,3 +186,49 @@
         opacity: 1;
     }
     
+.cardheading{
+margin: 0px;
+padding: 0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+
+}
+    img{
+        height: 500px;
+        width: 350px;
+        border-radius: 3px;
+    }
+
+    .intro{
+        height: 70px;
+        width: 350px;
+        padding: 6px;
+        box-sizing: border-box;
+        position: absolute;
+        background: rgb(210, 146, 68);
+        color: #ffffff;
+    }
+
+    .h3{
+margin: 10px;
+font-size: 40px;
+    }
+    
