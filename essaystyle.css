@@ -224,7 +224,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         box-sizing: border-box;
         position: absolute;
         background: rgb(210, 146, 68);
-        color: #ffffff;
+        color: #000000;
     }
 
     .h3{
