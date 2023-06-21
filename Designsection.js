@@ -42,6 +42,8 @@ carouselSlide.addEventListener('transitionend', ()=>{
     }
 });
 
+
+
 // TO THE TOP BUTTON //
 
 myButton = document.getElementById('myBtn'); 
