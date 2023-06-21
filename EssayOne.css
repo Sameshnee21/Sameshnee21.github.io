@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(142, 125, 125, 0.5)), url(Images/tami-mitchell-RoH3VzX2t5k-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80%;
+    height: 20px solid #fff;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.essay{
+    margin-bottom: 20px;
+}
+
+.date{
+    color: #fff;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.paragraph{
+    border-left: 7px solid #2370a5;
+    padding-left: 7px;
+}
