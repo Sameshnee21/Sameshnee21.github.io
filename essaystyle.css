@@ -202,10 +202,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .container{
     display: flex;
+   padding-left: 125px;
 }
 
 .card{
-    height: 500px;
+    height: 400px;
     margin: 50px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
@@ -223,6 +224,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding: 6px;
         box-sizing: border-box;
         position: absolute;
+        bottom: 240px;
         background: rgb(210, 146, 68);
         color: #000000;
     }
@@ -231,4 +233,14 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin: 10px;
 font-size: 40px;
     }
+
+   /* .card:hover{
+        cursor: pointer;
+    }
     
+    .card:hover .intro{
+height: 220px;
+bottom: 240px;
+background: #6f6b6b;
+opacity: 10;
+    }*/
