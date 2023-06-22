@@ -6,13 +6,17 @@
     }
     
     body{
-        height: 100vh;
+        /*height: 100vh;*/
         background-color: #000;
         background-image: url("Images/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 
     }
+
+ 
     
     li{
         list-style: none;
